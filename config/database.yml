@@ -35,6 +35,6 @@ production:
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: slate_production
+  database: crossmedia_production
   username: slate-cmp
   password: <%= Rails.application.credentials.dig(:production, :database_password) %>
